@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wght@200&family=Anek+Malayalam&family=Kdam+Thmor+Pro&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    position: absolute;
+    background-color: rgb(11, 32, 223);
+    /*width: 184px;*/
+    font-family: 'Anek Latin', sans-serif;
+    height: 100%;
+    
+    
+    
+    /*transition: transform 0.3s ease-in;*/
+}
+
+.sidebar nav{
+    padding: 12px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 20px;
+    padding: 25px;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color:rgba(243, 233, 233, 0.863);
+}
+
+.sidebarIconToggle{
+    border-color: #000;
+    height: 22px;
+    font-weight: 22px;
+    position: absolute;
+    z-index: 20;
+    top: 22px;
+    left: 15px;
+    cursor: pointer;
+}
+   
+.main{
+    /*background-color:yellow;*/
+    width: 90vw;
+    margin: 0px 150px;
+}
+.container{
+    display: flex;
+}
+.infocontainer{
+   /*background-color: greenyellow;*/
+    height: 20vw;
+    width: 70vw;
+    margin: 200px auto;
+    display: flex;
+    justify-content: space-around;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.divInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.hello{
+    font-size: 75px;
+    font-family: 'Anek Latin', sans-serif;
+    font-weight: bold;
+}
+
+.name{
+    font-size: 60px;
+    font-weight: bolder;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.about{
+    font-size: 25px;
+    font-family:'Kdam Thmor Pro', sans-serif;
+}
+.p{
+    font-size: 12px;
+}
+
+.buttons{
+    margin-top: 20px;
+}
+
+
+.btn {
+padding: 7px 12px;
+border-radius: 18px;
+color: rgb(231, 239, 247);
+background-color: rgb(28, 87, 165);
+font-weight: bold;
+font-size: 16px;
+margin: 0 3px;
+cursor: pointer;
+}
+
+.btn-sm{
+    font-size: 14px;
+}
+
+.btn:hover{
+    color: rgb(53, 53, 226);
+    background-color: #fff;
+}
+
+.divPic img{
+    height: 50vh;
+    padding: 0;
+    margin: 0;
+}
+
+.contactform{
+    padding: 0 60px;
+    padding-top: 12px;
+    font-family: 'Anek Latin', sans-serif;
+    margin: 0px 70px;
+}
+
+.contactform h1{
+    font-family: 'Anek Latin', sans-serif;
+   /*text-align: center;*/
+   padding: 12px 0;
+
+}
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+
+}
+.contactform form div input{
+    width: 20vw;
+    border-radius: 5px;
+    margin: 7px 0 0 0;
+    padding: 3px;
+
+}
+
+#emailHelp{
+    font-size: 13px;
+    color: midnightblue;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+
+#form-check{
+flex-direction: row;
+}
+
+#form-check input{
+width: 24px;
+margin: 3px 0;
+}
+
+.blogItem{
+margin: 12px;
+font-family: 'Anek Latin', sans-serif;
+text-align: justify;
+
+
+}
+
+.text{
+    font-size: 18px;
+}
+
+.moreText{
+display: none;
+}
+
+.read-more-btn{
+    padding: 7px 12px;
+    border-radius: 18px;
+    color: rgb(231, 239, 247);
+    background-color: rgb(28, 87, 165);
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Anek Latin', sans-serif;
+    margin: 0 3px;
+    cursor: pointer;
+    outline: none;
+}
+
+.read-more-btn:hover{
+    color: rgb(53, 53, 226);
+    background-color: #fff;
+
+}
+
+
+
+.text.show-more .moreText{
+    display: inline;
+
+}
+
+
+.text.show-more .dots{
+    display: none;
+}
+
+.blogcontainer{
+    margin: 0px 100px;
+    padding: 12px 0px;
+
+}
+
+h1{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 12px;
+    font-size: 35px;
+    margin: 0px 2px;
+}
+
+p{
+    font-family:'Kdam Thmor Pro', sans-serif;
+    font-size: 14px;
+    
+    
+}
+
+.intro h2{
+    font-family: 'Josefin Sans', sans-serif;
+
+    margin: 0px 120px;
+    padding: 14px 0px;
+    font-size: 27px;
+    
+    
+}
+.intro p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px 120px;
+    font-size: 16px;
+}
+
+.skillcontainer{
+    padding: 22px;
+}
+
+.skillItem{
+    display: flex;
+    align-items: center;
+    margin:0px 100px;
+}
+
+.skill{
+    width: 265px;
+    height: 8px;
+    background-color: rgb(38, 219, 32);
+    border: 2px solid rgb(90, 11, 235);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+}
+
+.hundered{
+width: 265px;
+background-color: rgb(32, 205, 218);
+}
+
+.fifty{
+    width: 125px;
+    background-color: rgb(115, 255, 0);
+}
+
+.t5{
+width: 75px;
+background-color: rgb(177, 19, 85);
+}
+
+/*<!--.sidebarGo{
+    transform: translate(-443px, 0px);
+    position: absolute;
+}*/
+/*.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top:10px;
+    left: 10px;
+}
+.cross{
+    margin-left: 78px;
+}*/
+/*@media (max-width: 1615px) {
+    *{
+
+       background-color: rgb(89, 0, 255);
+    } 
+
+/*.devPic{
+    display: none;
+    }
+.intro, .blogcontainer, .contactform{
+    margin:50px 8px;
+}
+    /*.sidebar{
+        transform: translate(-443px, 0px);
+        position: absolute;
+   }
+}/*
+
+
